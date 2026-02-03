@@ -1,2 +1,2 @@
 # Welcome
-Homepage is still building...
+Welcome to the homepage of Yang Xia!
