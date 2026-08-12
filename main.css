@@ -1697,7 +1697,34 @@ div.paginate-container li:nth-last-child(2) a:after {
     width: calc(60% - (30px / 2))
 }
 
+/* Keep publication text visible beside its preview image on desktop. */
+.pub {
+    display: grid;
+    grid-template-columns: minmax(280px, 40%) minmax(0, 1fr);
+    column-gap: 20px;
+    align-items: start;
+    overflow: visible;
+}
+
+.pub-left,
+.pub-right {
+    float: none;
+    width: auto;
+}
+
+.pub-right {
+    display: block;
+    min-width: 0;
+    color: #111;
+    visibility: visible;
+    opacity: 1;
+}
+
 @media screen and (max-width: 800px) {
+
+    .pub {
+        display: block;
+    }
 
     .pub-left,
     .pub-right {
