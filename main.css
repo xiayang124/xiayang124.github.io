@@ -187,6 +187,18 @@ pre>code {
     color: #828282
 }
 
+.social-media {
+    text-align: center;
+    width: 100%;
+    margin-top: 23px;
+}
+
+.social-media .icon-button {
+    display: inline-block;
+    margin: 0 12px;
+    vertical-align: middle;
+}
+
 .site-header {
     border-top: 3px solid #9b3022;
     border-bottom: 1px solid #9b3022;
