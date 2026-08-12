@@ -190,13 +190,12 @@ pre>code {
 .social-media {
     text-align: center;
     width: 100%;
-    margin-top: 23px;
 }
 
 .social-media .icon-button {
     display: inline-block;
     margin: 0 12px;
-    vertical-align: middle;
+    margin-top: -15px;
 }
 
 .site-header {
